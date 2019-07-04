@@ -68,12 +68,19 @@ The client uses this token to access a specific resource in the data store for o
 ## Benefits
 
 -- To minimize resource loading and maximize performance and scalability.
+
 -- Using a valet key doesn't require the resource to be locked, no remote server call is required, there's no limit on the number of valet keys that can be issued, and it avoids a single point of failure resulting from performing the data transfer through the application code.
+
 -- Creating a valet key is typically a simple cryptographic operation of signing a string with a key.
+
 -- To minimize operational cost , enabling direct access to stores and queues is resource and cost efficient can result in fewer network round trips, and might allow for a reduction in the number of compute resources required.
+
 -- When clients regularly upload or download data, particularly where there's a large volume or when each operation involves large files.
+
 -- When the Application has limited compute resources available, either due to hosting limitations or cost considerations for this scenario the pattern is even more helpful if there are many concurrent data uploads or downloads because it relieves the application from handling the data transfer.
+
 -- When data is stored in a remote data store or a different datacenter.
+
 -- If the application was required to act as a gatekeeper, there might be a charge for the additional bandwidth of transferring the data between datacenters, or across public or private networks between the client and the application and then between the application and the data store.
 
 ## Cautions

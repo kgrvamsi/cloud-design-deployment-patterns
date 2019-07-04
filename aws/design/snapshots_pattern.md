@@ -18,7 +18,7 @@ You can Automate it using a program (Shell,Python etc) or using **Aws Batch** [<
 
 **_Amazon Elastic Block Store (EBS)_** which is the virtual storage in AWS has a snapshot function which you can take snapshot of your current instance using this function.
 
-When you take a snapshot, it is stored in the **_Amazon Simple Storage Service (S3)_** **Object Storage** which is designed to have 99.999999999% durability.
+When you take a snapshot, it is stored in the **_Amazon Simple Storage Service (S3)_** **Object Storage** which is designed to have **99.999999999%** durability.
 
 When the EBS snapshot function is used, all of the data required to recreate the EBS volume is copied to S3.
 
