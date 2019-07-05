@@ -25,7 +25,7 @@ By using Aws Cloud , on the other hand , resources such as the servers,disks aar
 
 If you create an Amazon Machine Image (AMI) from an Elastic Block Store (EBS) that includes the boot region of the operating system, you will be able to launch an EC2 instance from the AMI, making it possible for you to produce a large numbers of EC2 instances with identical settings.
 
-######(Procedure)
+###### (Procedure)
 
 -- Launch an EC2 instance and install the required software.
 

@@ -44,6 +44,8 @@ Every Pattern Defining template would have the following format
 
 2. [Valet Key Pattern](https://github.com/kgrvamsi/cloud-design-patterns/blob/master/aws/design/valet_key_pattern.md)
 
+3. [Stamp Pattern](https://github.com/kgrvamsi/cloud-design-patterns/blob/master/aws/design/stamp_pattern.md)
+
 #### Deployment
 
 ## Azure
@@ -67,7 +69,7 @@ TBD
 
 #### Design
 
-TBD
+1. [Side Car Pattern](https://github.com/kgrvamsi/cloud-design-patterns/blob/master/kubernetes/design/side_car_pattern.md)
 
 #### Deployment
 
